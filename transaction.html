@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transaction-Table</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="transaction.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <img class="logo" src="logo.webp" alt="Logo">
+      </div>
+      <div class="col-md-2">
+        <h6 class="Compare">Compare Expenses</h6>
+      </div>
+      <div class="col-md-2">
+        <input class="search" type="Search" placeholder="Search for products">
+      </div>
+      <div class="col-md-2">
+        <a href="#"><img class="mail-icon" src="Mail-icon.svg" alt="Category"></a>
+      </div>
+      <div class="col-md-2">
+        <a href="#"><img class="setting-icon" src="setting-icon.svg" alt="Bag"></a>
+      </div>
+      <div class="col-md-2">
+        <a href="#"><img class="icon-account" src="Account.svg" alt="Account"></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-2">
+        <p class="profile">John Doe<br>Customer</p>
+      </div>
+      <div class="col-md-3">
+        <h6 class="h6">Financial Overview</h6>
+      </div>
+      <div class="col-md-4">
+        <h4 class="h4">Your nearest branch closes in: 30m 5s</h4>
+      </div>
+      <div class="col-md-3">
+        <button type="button" class="btn btn-primary">Add Account</button>
+        <button type="button" class="btn btn-success">Make Payment</button>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3">
+        <h6 class="card-type">CARD TYPES</h6>
+        <p class="cards">Credit cards</p>
+        <p class="cards">Debit cards</p>
+        <h6 class="card-type">LENDING</h6>
+        <p class="cards">Loans</p>
+        <p class="cards">Mortgages</p>
+      </div>
+      <div class="col-md-3">
+        <h5 class="balance">Total Balance</h5>
+        <p class="rate">$350 %7</p>
+        <a href="#" class="Statement">view Statement</a>
+      </div>
+      <div class="col-md-3">
+        <h5 class="balance">Credit Available</h5>
+        <p class="rate">$17,800</p>
+        <a href="#" class="Statement">Request Increase</a>
+      </div>
+      <div class="col-md-3">
+        <h5 class="balance">Due Today</h5>
+        <p class="pay-due">$180</p>
+        <a href="#" class="pay-now">Pay now</a>
+      </div>
+    </div>
+    <h6 class="recent">Recent Transactions</h6>
+    <hr>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">STATUS</th>
+        <th scope="col">DATE</th>
+        <th scope="col">DESCRIPTION</th>
+        <th scope="col">CATEGORY</th>
+        <th scope="col">AMOUNT</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Pending</th>
+        <td>Yesterday7:45am</td>
+        <td>MailChimp Services</td>
+        <td><button type="button" class="btn btn-warning">Software</button></td>
+        <td>- 320.00 USD</td>
+      </tr>
+      <tr>
+        <th scope="row">Complete</th>
+        <td>Jan 7th9:51am</td>
+        <td>Ebay Marketplace</td>
+        <td><button type="button" class="btn btn-danger">Ecommerce</button></td>
+        <td>- 244.00 USD</td>
+      </tr>
+      <tr>
+        <th scope="row">Pending</th>
+        <td>Jan 23rd2:7pm</td>
+        <td>Shopify product</td>
+        <td><button type="button" class="btn btn-primary">Shopping</button></td>
+        <td>+ 17.99 USD</td>
+      </tr>
+      <tr>
+        <th scope="row">Pending</th>
+        <td>Jan 9th7:45pm</td>
+        <td>Templates Inc</td>
+        <td><button type="button" class="btn btn-primary">Business</button></td>
+        <td>+ 340.00 USD</td>
+      </tr>
+      <tr>
+        <th scope="row">Declined</th>
+        <td>Jan 19th3:22pm</td>
+        <td>Stripe Payment Processing</td>
+        <td><button type="button" class="btn btn-danger">Finance</button></td>
+        <td>+ 952.23 USD</td>
+      </tr>
+      <tr>
+        <th scope="row">Complete</th>
+        <td>Today1:52am</td>
+        <td>Starbucks coffee</td>
+        <td><button type="button" class="btn btn-primary">Shopping</button></td>
+        <td>+ 1,250.00 USD</td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+.logo{
+  width: 26%;
+  height: 76%;
+  margin-left: 180px;
+  margin-top: 6px;
+}
+.Compare{
+  margin-top:30px;
+}
+.search{
+  margin-top:22px;
+  width: 120%;
+  height: 50%;
+  border-radius: 5px;
+  border-color: antiquewhite;
+}
+.mail-icon{
+  margin-top:25px;
+  width: 288px;
+  height: 32px;
+}
+.setting-icon{
+  margin-top:25px;
+  width: 288px;
+  height: 32px;
+  padding-right: 100px;
+}
+.icon-account{
+  margin-top:25px;
+  width: 288px;
+  height: 32px;
+  padding-right: 200px;
+}
+.profile{
+  padding-left: 30px;
+}
+.h6{
+  padding-top: 60px;
+}
+.h4{
+  padding-top: 10px;
+  color: rgb(240, 93, 93);
+}
+.card-type{
+  color: blue;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+.cards{
+  cursor: pointer;
+  padding-left: 46px;
+}
+.balance{
+  padding-top: 80px;
+  padding-left: 35px;
+}
+.rate{
+  padding-left: 35px;
+  font-size: larger;
+}
+.Statement{
+  padding-left: 35px;
+}
+.pay-due{
+  padding-left: 34px;
+  color:rgb(240, 93, 93) ;
+  font-size: larger;
+}
+.pay-now{
+  padding-left: 34px;
+  color:rgb(240, 93, 93) ;
+}
+.recent{
+  padding-left: 250px;
+}
